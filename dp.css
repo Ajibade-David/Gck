@@ -1,0 +1,207 @@
+html,body { height: 100%;}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+      background: #f5f5f5 url(pictures/background\ -\ Osogbo.png) fixed no-repeat top right /cover;/* background-color: #f5f5f5; */
+
+  
+}
+
+
+.form-GetDp {
+    width: 100%;
+    max-width: 720px;
+    padding: 15px;
+    margin: auto;
+    background-color:#076377;
+    border-radius: 5px;
+    position: relative;
+}
+.form-GetDp .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-GetDp input[type="email"] {
+    border-bottom-right-radius: 0;
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.form-GetDp input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+}
+
+.toasts-top-right.fixed {
+    position: fixed;
+    font-size: 15px;
+    
+    .form-control {
+        color: #212529;
+        font-size: 1rem;
+        border-radius: .1rem !important;
+        font-weight: 600;
+        background-color: #fff;
+    }
+}
+.toast {
+    width: 350px;
+    max-width: 100%;
+    font-size: 15px !important;
+}
+.toast-header {
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    display: flex;
+    background-color: rgba(255, 17, 17, 0.85);
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    border-top-left-radius: calc(.25rem - 1px);
+    align-items: center;
+    padding: .25rem .75rem;
+    color: #6c757d;
+    background-clip: padding-box;
+    border-top-right-radius: calc(.25rem - 1px);
+
+}
+.toasts-top-right {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1040;
+}
+.toast-header .btn-close {
+    background: none;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+.letter-box img {
+    object-fit: cover;
+    width: auto;
+    height: 380px;
+}
+.bg-fb{background-color:#4714f0}
+.bg-tw{background-color:#46A5E7}
+.bg-wa{background-color:#00BD29}
+.btn{color: #fff !important}
+
+.baseImg-wrap {
+    position: relative;
+}
+
+
+div#myImage {
+    position: absolute;
+    /* background-color: #fff; */
+    background-color: transparent;
+    top: 13.94%;
+    left: 35.5%;
+    height: 29%;
+    width: 29%;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 75%;
+}
+
+img#myImageTag {
+/*  opacity: 0.5;*/
+}
+
+.nameOut {
+    font-family: 'Kaushan Script', cursive;
+    /* text-shadow: 2px 2px 2px #000; */
+    font-size: 12px;
+    font-size: calc(12px + 50%);
+    position: absolute;
+    background-color: #fdf3d3;
+    top: 45.8%;
+    left: 31.9%;
+    height: 4.6%;
+    width: 35.7%;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* border-bottom: 3px solid #fff;*/
+    border-radius: 5px;
+}
+.churchOut {
+    font-size: 12px;
+    font-size: calc(12px + 27%);
+    position: absolute;
+    background-color: #fdf3d3;
+    top: 85%;
+    left: 17.8%;
+    height: 5%;
+    width: 65.1%;
+    z-index: 2;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 11px;
+    /* padding-left: 24px; */
+}
+.churchOut {
+    font-size: calc(12px + 27%);
+    /* line-height: 36px; */
+}
+@media(max-width: 767px){
+/*  .nameOut, .churchOut{
+        font-size: 2.2vw;
+        line-height: 2;
+    }*/
+    .nameOut{
+        font-size: 3.1vw;
+        line-height: 1;
+        /* color: #fa9236; */
+    }
+    .churchOut{
+        font-size: 2.2vw;
+        line-height: 1.6;
+    }
+}
+.form-select, .form-control {
+    border-radius: 1rem 0 !important;
+    border: 1px solid #000;
+}
+.form-select:focus,
+.form-control:focus {
+    color: #212529;
+    background-color: white ;
+    border-color: #5372c7;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(8 66 152 / 36%);
+}
+
+.mk-btn{
+  background: rgb(40,143,163);
+  border-color: #288FA3;
+  background: linear-gradient(0deg, rgba(40,143,163,1) 0%, rgba(31,148,179,1) 100%);
+}
+.mk-btn:hover{
+  border-color: #288FA3;
+}
